@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer(app);
-const port = process.env.SERVER_PORT || 5000;
+const port = process.env.SERVER_PORT || 5001;
 
 // SOCKET CONNECTION
 const io = socket(server);
